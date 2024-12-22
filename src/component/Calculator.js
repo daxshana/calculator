@@ -44,7 +44,7 @@ function App() {
           <button onClick={() => handleClick(".")}>.</button>
           <button onClick={handleClear}>C</button>
           <button onClick={() => handleClick("+")}>+</button>
-
+          <button onClick={() => handleClick("-")}>+</button>
           <button className="span-two" onClick={handleCalculate}>=</button>
         </div>
       </div>
